@@ -2,8 +2,6 @@
 
 
 body {
-    width: 100vw;
-    height: 100vh;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -13,11 +11,9 @@ body {
 }
 
 .navbar {
-    width: 98vw !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat;
     /* background-position: ; */
-    margin: 0 auto;
 }
 
 .navbar-brand {
@@ -71,32 +67,42 @@ body {
 
 /* ***************************images edit section*************************** */
 
-.img>img{
+.img>img {
     border: 1px solid red;
 }
 
-#images-1>img{
+#images-1>img {
     width: 290px !important;
     height: 250px !important;
 }
 
-#images-2>img{
+#images-2>img {
     width: 215px !important;
     height: 250px !important;
 }
 
-#images-3>img{
+#images-3>img {
     width: 165px !important;
     height: 250px !important;
 }
 
-#images-4>img{
+#images-4>img {
     width: 290px !important;
     height: 250px !important;
 }
 
+/*****************************   footer section    ******************************/
 
+.footer-section{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255) !important;
+}
 
+.footer_icon>i{
+    margin-right: 23px;
+}
 
 /*****************************@media screen******************************/
 
@@ -107,10 +113,10 @@ body {
 }
 
 @media only screen and (max-width: 340px) {
-    .heading h1{
+    .heading h1 {
         font-size: 15px;
     }
-    
+
     .navbar img {
         width: 100px;
     }
