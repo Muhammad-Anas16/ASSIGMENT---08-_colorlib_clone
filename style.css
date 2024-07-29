@@ -110,6 +110,11 @@ body {
     .list {
         display: none;
     }
+
+    .footer-section{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 340px) {
