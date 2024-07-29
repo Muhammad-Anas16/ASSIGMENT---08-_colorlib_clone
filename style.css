@@ -69,10 +69,30 @@ body {
     text-decoration: underline;
 }
 
+/* ***************************images edit section*************************** */
 
-.gallery{
-    width: 90vw;
-    background-color: aqua;
+.img>img{
+    border: 1px solid red;
+}
+
+#images-1>img{
+    width: 290px !important;
+    height: 250px !important;
+}
+
+#images-2>img{
+    width: 215px !important;
+    height: 250px !important;
+}
+
+#images-3>img{
+    width: 165px !important;
+    height: 250px !important;
+}
+
+#images-4>img{
+    width: 290px !important;
+    height: 250px !important;
 }
 
 
